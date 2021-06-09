@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class APIService {
-  static const _api_key = 'bfaa1c6d8emshbb9b67fed1ebb13p1de3a4jsn7f0eab49d0cd';
+  static const _api_key = '***';
   static const String _baseUrl = 'https://twinword-emotion-analysis-v1.p.rapidapi.com/analyze/';
   static const Map<String, String> _header = {
     'content-type': 'application/x-www-form-urlencoded',
